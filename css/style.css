@@ -129,6 +129,12 @@ html, body {
     font-weight: bold;
 }
 
+/*.idinu-content__introduction-wrapper__description-wrapper{*/
+/*    display : grid;*/
+/*    grid-auto-rows: auto;*/
+/*    grid-template-columns: ;*/
+/*}*/
+
 .idinu-content__introduction-wrapper__description{
     font-family: 'Noto Sans KR', sans-serif;
     font-size : 1.375rem;
@@ -168,10 +174,10 @@ html, body {
 
 .idinu-content__feature-wrapper__card__text-wrapper {
     width: 100%;
+    height : 30vh;
     display: flex;
     margin-top: 2.5rem;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 

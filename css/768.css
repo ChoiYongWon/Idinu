@@ -1,5 +1,7 @@
 @media screen and (max-width : 768px){
 
+
+
     .idinu-header{
         padding: 70px 2.6vw 30px;
     }
@@ -41,4 +43,17 @@
         padding : 0;
         box-sizing: border-box;
     }
+
+    .idinu-content__introduction-wrapper{
+        padding : 0 2.6vw;
+        box-sizing: border-box;
+    }
+
+    .idinu-content__feature-wrapper{
+        height : auto;
+        box-sizing: border-box;
+        padding : 0 2.6vw;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
