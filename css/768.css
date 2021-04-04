@@ -1,0 +1,44 @@
+@media screen and (max-width : 768px){
+
+    .idinu-header{
+        padding: 70px 2.6vw 30px;
+    }
+
+    .idinu-header__icon{
+        width : auto;
+        height : 20px;
+        display : block;
+    }
+
+    .idinu-header__logo {
+        width : auto;
+        height : 20px;
+        margin-left : 2.6vw;
+        grid-column : 2/5;
+    }
+
+    .idinu-header__icon-wrapper__icon{
+        width : auto;
+        height : 20px;
+    }
+
+
+    .idinu-header__icon-wrapper__icon:nth-child(3){
+        display : none;
+    }
+
+    .idinu-header__nav{
+        display : none;
+    }
+
+    .idinu-header__nav-2{
+        display : none;
+    }
+
+    .idinu-content{
+        width : 100%;
+        height : auto;
+        padding : 0;
+        box-sizing: border-box;
+    }
+}
