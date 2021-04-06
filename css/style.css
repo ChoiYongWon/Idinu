@@ -155,7 +155,7 @@ html, body {
 
 .idinu-content__feature-wrapper{
     width : 100%;
-    height : 83.3vh;
+    height : auto;
     display : grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;
@@ -165,6 +165,7 @@ html, body {
 .idinu-content__feature-wrapper__card{
     width : 100%;
     height : auto;
+    margin-bottom : 10.125rem;
 }
 
 .idinu-content__feature-wrapper__card__img{
@@ -174,11 +175,12 @@ html, body {
 
 .idinu-content__feature-wrapper__card__text-wrapper {
     width: 100%;
-    height : 30vh;
+    height : auto;
     display: flex;
     margin-top: 2.5rem;
     flex-direction: column;
     align-items: center;
+
 }
 
 
@@ -206,12 +208,105 @@ html, body {
     margin-top : 2.5rem;
 }
 
+.idinu-content__best-seller-wrapper {
+    width : 100%;
+    height : auto;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    background-color : #F2F1F3;
+    padding : 4.625rem 0 0 0;
+}
 
+.idinu-content__best-seller-wrapper__subtitle{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 0.938rem;
+    font-weight : 500;
+}
 
+.idinu-content__best-seller-wrapper__title{
+    font-family: 'Poppins', sans-serif;
+    font-size : 2.5rem;
+    font-weight : bold;
+}
 
+.idinu-content__best-seller-wrapper__tag-wrapper{
+    display : flex;
+    margin-top : 2.125rem;
+    justify-content: center;
+}
 
+.idinu-content__best-seller-wrapper__tag-wrapper__tag{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 1.25rem;
+    color : #909090;
+    margin-right: 10px;
+}
 
+.idinu-content__best-seller-wrapper__tag-wrapper__tag:nth-child(1){
+    color : #000000;
+}
 
+.idinu-content__best-seller-wrapper__content-wrapper{
+    display : flex;
+    width: 90%;
+    justify-content: center;
+    padding : 3rem;
+    box-sizing: border-box;
+}
+
+.idinu-content__best-seller-wrapper__content-wrapper__content{
+    width : 22%;
+    height : auto;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    padding : 0 3rem 3rem 3rem;
+    box-sizing: border-box;
+    margin : 3rem 3rem 0 3rem;
+}
+
+.idinu-content__best-seller-wrapper__content-wrapper__content__img-wrapper{
+    width: 18.125vw;
+    height: auto;
+    border : none;
+    outline : none;
+    border-radius: 50%;
+}
+
+.idinu-content__best-seller-wrapper__content-wrapper__content__img-wrapper__img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.idinu-content__best-seller-wrapper__content-wrapper__content__title{
+    margin-top : 1.25rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 1rem;
+    text-align : center;
+}
+
+.idinu-content__best-seller-wrapper__content-wrapper__content__description{
+    margin-top: 0.5rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 0.75rem;
+    text-align : center;
+    color : #999999;
+}
+
+.idinu-content__best-seller-wrapper__content-wrapper__content__price{
+    margin-top: 1rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 0.938rem;
+}
+
+.idinu-content__best-seller-wrapper__content-wrapper__content__price--sale{
+    margin-top: 2rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 0.938rem;
+    text-decoration:line-through;
+}
 
 
 
