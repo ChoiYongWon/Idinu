@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="432" height="431" viewBox="0 0 432 431">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f2f1f3;
+      }
+
+      .cls-2 {
+        fill: #aaa;
+        font-size: 30px;
+        font-family: NotoSansCJKkr-Bold, Noto Sans CJK KR;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="그룹_393" data-name="그룹 393" transform="translate(-960 -4660)">
+    <rect id="사각형_44" data-name="사각형 44" class="cls-1" width="432" height="431" transform="translate(960 4660)"/>
+    <text id="Coming_Soon" data-name="Coming Soon" class="cls-2" transform="translate(1176 4882)"><tspan x="-97.995" y="0">Coming Soon</tspan></text>
+  </g>
+</svg>

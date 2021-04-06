@@ -251,8 +251,9 @@ html, body {
     display : flex;
     width: 90%;
     justify-content: center;
-    padding : 3rem;
+    padding : 0 3rem 2rem;
     box-sizing: border-box;
+    margin-top : 3.75rem;
 }
 
 .idinu-content__best-seller-wrapper__content-wrapper__content{
@@ -263,7 +264,7 @@ html, body {
     align-items: center;
     padding : 0 3rem 3rem 3rem;
     box-sizing: border-box;
-    margin : 3rem 3rem 0 3rem;
+    margin : 0 3rem 0 3rem;
 }
 
 .idinu-content__best-seller-wrapper__content-wrapper__content__img-wrapper{
@@ -309,4 +310,137 @@ html, body {
 }
 
 
+.idinu-content__new-wrapper {
+    width : 100%;
+    height : auto;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    padding : 8.625rem 1.5rem 4.5rem 1.5rem;
+    box-sizing: border-box;
+}
 
+.idinu-content__new-wrapper__subtitle{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 0.938rem;
+    font-weight: 500;
+}
+
+.idinu-content__new-wrapper__title{
+    font-family: 'Poppins', sans-serif;
+    font-size : 2.5rem;
+    font-weight : bold;
+}
+
+.idinu-content__new-wrapper__content-wrapper{
+    display : flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.idinu-content__new-wrapper__content-wrapper__content{
+    width: 21.25%;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:5.375rem;
+}
+
+.idinu-content__new-wrapper__content-wrapper__content__img{
+    width:100%;
+    height:auto;
+}
+
+.idinu-content__new-wrapper__content-wrapper__content__title{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.idinu-content__new-wrapper__content-wrapper__content__description{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 0.75rem;
+    color : #999999;
+}
+
+.idinu-content__new-wrapper__content-wrapper__content__price{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:0.938rem;
+    color: #444444;
+    margin-top: 0.5rem;
+
+}
+
+.idinu-content__brand-wrapper {
+    width : 100%;
+    height : auto;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    padding : 8.625rem 1.5rem 4.5rem 1.5rem;
+    box-sizing: border-box;
+}
+
+.idinu-content__brand-wrapper__subtitle{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 0.938rem;
+    font-weight: 500;
+}
+
+.idinu-content__brand-wrapper__title{
+    font-family: 'Poppins', sans-serif;
+    font-size : 2.5rem;
+    font-weight : bold;
+}
+
+.idinu-content__brand-wrapper__content-wrapper{
+    display : flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top : 3.5rem;
+}
+
+.idinu-content__brand-wrapper__content-wrapper__card{
+    width: 50%;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.idinu-content__brand-wrapper__content-wrapper__card__img{
+    width: 100%;
+    height: auto;
+}
+
+.idinu-content__brand-wrapper__content-wrapper__card__text-wrapper{
+    display : flex;
+    width: 100%;
+    height : 7.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding : 1rem 0;
+    border : #E8E8E8 solid 1px;
+    border-top: none;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+
+.idinu-content__brand-wrapper__content-wrapper__card__text-wrapper__subtitle{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 0.75rem;
+    color : #999999;
+}
+.idinu-content__brand-wrapper__content-wrapper__card__text-wrapper__title{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 1.375rem;
+    color : #444444;
+}
+
+
+.idinu-content__brand-wrapper__content-wrapper__card__text-wrapper__button{
+    border : 0;
+    background-color : transparent;
+    outline: 0;
+    margin-top : 1rem;
+}

@@ -59,7 +59,7 @@
     .idinu-content__feature-wrapper__card__text-wrapper__title{
         font-family: 'Noto Sans KR', sans-serif;
         font-weight: 500;
-        font-size : 2.5rem;
+        font-size : 2rem;
     }
 
     .idinu-content__best-seller-wrapper__content-wrapper{
@@ -93,6 +93,29 @@
     .idinu-content__best-seller-wrapper__content-wrapper__content__img-wrapper__img{
         border-radius: 0;
     }
+
+    .idinu-content__new-wrapper__content-wrapper{
+        flex-wrap : wrap;
+    }
+
+    .idinu-content__new-wrapper__content-wrapper__content{
+        width : 48%;
+    }
+
+
+    .idinu-content__brand-wrapper__content-wrapper{
+        flex-wrap : wrap;
+    }
+
+    .idinu-content__brand-wrapper__content-wrapper__card{
+        width: 50%;
+    }
+
+
+    .idinu-content__brand-wrapper__content-wrapper__card__text-wrapper{
+        height : 11.75rem;
+    }
+
 
 
 }
