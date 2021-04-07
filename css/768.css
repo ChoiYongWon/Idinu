@@ -168,8 +168,9 @@
     }
 
     .idinu-content__insta-wrapper__content__img{
-        width : 32.2%;
+        width : 33%;
         height : auto;
+        margin : 0 0.15% 0.25rem;
     }
 
     .idinu-content__insta-wrapper__content__img:nth-child(10){
