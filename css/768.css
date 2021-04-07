@@ -167,9 +167,11 @@
         width : 100%;
     }
 
-    .idinu-content__insta-wrapper__content__img{
+    .test{
         width : 32%;
-        height : auto;
+    }
+
+    .idinu-content__insta-wrapper__content__img{
     }
 
     .idinu-content__insta-wrapper__content__img:nth-child(10){
