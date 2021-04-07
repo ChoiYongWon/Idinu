@@ -149,18 +149,28 @@
     }
 
     .idinu-content__event-wrapper{
-        padding : 8.625rem 1.5rem 4.5rem 1.5rem;
+        padding : 8.625rem 1.5rem 9rem 1.5rem;
+    }
+
+    .idinu-content__event-wrapper__content-wrapper{
+        width : 100%;
+        padding : 0 1.5rem;
+
     }
 
     .idinu-content__insta-wrapper{
         margin-bottom: 2rem;
+        padding : 5rem 1.5rem;
     }
 
+    .idinu-content__insta-wrapper__content{
+        width : 100%;
+    }
 
     .idinu-content__insta-wrapper__content__img{
         width : 32.2%;
         height : auto;
-        margin : 0 0.55% 0.4rem;
+        margin : 0 0.55% 0.5rem;
     }
 
     .idinu-content__insta-wrapper__content__img:nth-child(10){
