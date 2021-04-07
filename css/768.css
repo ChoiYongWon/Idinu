@@ -167,20 +167,20 @@
         width : 100%;
     }
 
-    .test{
-        width : 30%;
+    .idinu-content__insta-wrapper__content__img-wrapper{
+        width : 31%;
     }
 
-    .idinu-content__insta-wrapper__content__img{
+    .idinu-content__insta-wrapper__content__img-wrapper__img{
     }
 
-    .idinu-content__insta-wrapper__content__img:nth-child(10){
+    .idinu-content__insta-wrapper__content__img-wrapper:nth-child(10){
         display: none;
     }
-    .idinu-content__insta-wrapper__content__img:nth-child(11){
+    .idinu-content__insta-wrapper__content__img-wrapper:nth-child(11){
         display: none;
     }
-    .idinu-content__insta-wrapper__content__img:nth-child(12) {
+    .idinu-content__insta-wrapper__content__img-wrapper:nth-child(12) {
         display: none;
     }
 

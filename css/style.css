@@ -625,14 +625,13 @@ html, body {
     justify-content: center;
 }
 
-.test{
+.idinu-content__insta-wrapper__content__img-wrapper{
     width : 16%;
     height : auto;
-    margin : 0.1rem
-
+    margin : 0 0.1rem
 }
 
-.idinu-content__insta-wrapper__content__img{
+.idinu-content__insta-wrapper__content__img-wrapper__img{
     width : 100%;
     height : auto;
 }
