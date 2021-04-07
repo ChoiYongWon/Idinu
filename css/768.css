@@ -94,6 +94,10 @@
         border-radius: 0;
     }
 
+    .idinu-content__new-wrapper {
+        padding : 8.625rem 1.5rem 4.5rem 1.5rem;
+    }
+
     .idinu-content__new-wrapper__content-wrapper{
         flex-wrap : wrap;
     }
@@ -102,6 +106,9 @@
         width : 48%;
     }
 
+    .idinu-content__brand-wrapper{
+        padding : 8.625rem 1.5rem 4.5rem 1.5rem;
+    }
 
     .idinu-content__brand-wrapper__content-wrapper{
         flex-wrap : wrap;
@@ -114,6 +121,109 @@
 
     .idinu-content__brand-wrapper__content-wrapper__card__text-wrapper{
         height : 11.75rem;
+    }
+
+    .idinu-content__review-wrapper{
+        padding : 8.625rem 1.5rem 4.5rem 1.5rem;
+
+    }
+
+    .idinu-content__review-wrapper__container__content-wrapper{
+        flex-wrap : wrap;
+        width : 100%;
+        justify-content: space-between;
+    }
+
+    .idinu-content__review-wrapper__container__content-wrapper__card{
+        width: 49%;
+        border-radius: 0.5rem;
+        border : #ACACAC solid 1px;
+    }
+
+    .idinu-content__review-wrapper__container__content-wrapper__card__text-wrapper{
+        border-top : #ACACAC solid 1px;
+    }
+
+    .idinu-content__review-wrapper__container__arrow{
+        display : none;
+    }
+
+    .idinu-content__event-wrapper{
+        padding : 8.625rem 1.5rem 4.5rem 1.5rem;
+    }
+
+    .idinu-content__insta-wrapper{
+        margin-bottom: 2rem;
+    }
+
+
+    .idinu-content__insta-wrapper__content__img{
+        width : 32.2%;
+        height : auto;
+        margin : 0 0.55% 0.4rem;
+    }
+
+    .idinu-content__insta-wrapper__content__img:nth-child(10){
+        display: none;
+    }
+    .idinu-content__insta-wrapper__content__img:nth-child(11){
+        display: none;
+    }
+    .idinu-content__insta-wrapper__content__img:nth-child(12) {
+        display: none;
+    }
+
+
+    .idinu-footer__wrapper{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .idinu-footer__wrapper__section-1-wrapper__service-title{
+        display: none;
+    }
+
+    .idinu-footer__wrapper__section-1-wrapper__service-content{
+        display : none;
+    }
+
+    .idinu-footer__wrapper__section-1-wrapper{
+        width : 100%;
+    }
+
+    .idinu-footer__wrapper__section-1-wrapper__menu-wrapper{
+        justify-content: center;
+
+    }
+
+    .idinu-footer__wrapper__section-1-wrapper__info-wrapper__info{
+        width : 100%;
+        margin-right : 0;
+    }
+
+    .idinu-footer__wrapper__section-2-wrapper{
+        width : 100%;
+    }
+
+    .idinu-footer__wrapper__section-2-wrapper__customer-center{
+        margin-top : 0.5rem;
+    }
+
+    .idinu-footer__wrapper__section-2-wrapper__phone{
+        font-size : 0.938rem;
+        margin : 0 0 0.5rem;
+    }
+
+    .idinu-footer__wrapper__section-3-wrapper__contact-title{
+        margin : 0.5rem 0 0;
+    }
+
+    .idinu-footer__wrapper__section-3-wrapper{
+        width : 100%;
+    }
+
+    .idinu-footer__wrapper__section-1-wrapper__copyright{
+        display : none;
     }
 
 

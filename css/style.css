@@ -316,7 +316,7 @@ html, body {
     display : flex;
     flex-direction: column;
     align-items: center;
-    padding : 8.625rem 1.5rem 4.5rem 1.5rem;
+    padding : 8.625rem 0 4.5rem 0;
     box-sizing: border-box;
 }
 
@@ -377,7 +377,7 @@ html, body {
     display : flex;
     flex-direction: column;
     align-items: center;
-    padding : 8.625rem 1.5rem 4.5rem 1.5rem;
+    padding : 8.625rem 0 4.5rem 0;
     box-sizing: border-box;
 }
 
@@ -396,7 +396,7 @@ html, body {
 .idinu-content__brand-wrapper__content-wrapper{
     display : flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     margin-top : 3.5rem;
 }
 
@@ -444,3 +444,323 @@ html, body {
     outline: 0;
     margin-top : 1rem;
 }
+
+.idinu-content__review-wrapper{
+    width : 100%;
+    height : auto;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    padding : 8.625rem 0 4.5rem 0;
+    box-sizing: border-box;
+}
+
+
+.idinu-content__review-wrapper__subtitle{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 0.938rem;
+    font-weight: 500;
+}
+
+.idinu-content__review-wrapper__title{
+    font-family: 'Poppins', sans-serif;
+    font-size : 2.5rem;
+    font-weight : bold;
+}
+
+.idinu-content__review-wrapper__container{
+    display : flex;
+    width : 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.idinu-content__review-wrapper__container__content-wrapper{
+    display : flex;
+    width: 75%;
+    justify-content: center;
+    margin-top : 3.5rem;
+}
+
+.idinu-content__review-wrapper__container__arrow{
+    width : 2.5%;
+}
+
+.idinu-content__review-wrapper__container__content-wrapper__card{
+    width: 25%;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.idinu-content__review-wrapper__container__content-wrapper__card__img{
+    width: 100%;
+    height: auto;
+}
+
+.idinu-content__review-wrapper__container__content-wrapper__card__rate{
+    width: 5rem;
+    height: auto;
+    margin-bottom: 0.313rem;
+}
+
+.idinu-content__review-wrapper__container__content-wrapper__card__text-wrapper{
+    display : flex;
+    width: 100%;
+    min-height : 14.625rem;
+    height : auto;
+    flex-direction: column;
+    justify-content: center;
+    padding : 1.313rem 1.1313rem 0.875rem;
+    border : #EEEEEE solid 1px;
+    border-top: none;
+    border-collapse: separate;
+    box-sizing: border-box;
+}
+
+
+.idinu-content__review-wrapper__container__content-wrapper__card__text-wrapper__title{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 0.938rem;
+    color : #444444;
+    margin-bottom: 0.375rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.idinu-content__review-wrapper__container__content-wrapper__card__text-wrapper__content{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 0.688rem;
+    color : #999999;
+}
+
+.idinu-content__review-wrapper__container__content-wrapper__card__text-wrapper__info{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 0.688rem;
+    color : #999999;
+    margin-top : 1.688rem;
+}
+
+.idinu-content__review-wrapper__container__content-wrapper__card__text-wrapper__name-wrapper{
+    display : flex;
+    padding-top : 0.813rem;
+    margin-top : 1.625rem;
+    border-top : #EEEEEE solid 1px;
+    align-items: center;
+}
+
+.idinu-content__review-wrapper__container__content-wrapper__card__text-wrapper__name-wrapper__circle{
+    width : 2.25rem;
+    height : 2.25rem;
+    background-color : #CCCCCC;
+    border-radius: 1.125rem;
+}
+
+.idinu-content__review-wrapper__container__content-wrapper__card__text-wrapper__name-wrapper__name{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 0.688rem;
+    color : #444444;
+    margin-left: 0.563rem;
+}
+
+
+.idinu-content__event-wrapper{
+    width : 100%;
+    height : auto;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    padding : 8.625rem 0 17rem 0;
+    box-sizing: border-box;
+}
+
+.idinu-content__event-wrapper__subtitle{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 0.938rem;
+    font-weight: 500;
+}
+
+.idinu-content__event-wrapper__title{
+    font-family: 'Poppins', sans-serif;
+    font-size : 2.5rem;
+    font-weight : bold;
+}
+
+.idinu-content__event-wrapper__content-wrapper{
+    width: 75%;
+    margin-top : 4.5rem;
+}
+
+.idinu-content__event-wrapper__content-wrapper__img{
+    width: 100%;
+}
+
+.idinu-content__insta-wrapper{
+    width : 100%;
+    height : auto;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    padding : 10rem 14.8rem;
+    box-sizing: border-box;
+    background-color : #E8E8E8;
+    margin-bottom: 9rem;
+}
+
+.idinu-content__insta-wrapper__title{
+    font-family: 'Gotham', sans-serif;
+    font-weight: bold;
+    color : #333333;
+    font-size : 2.5rem;
+}
+
+.idinu-content__insta-wrapper__content{
+    width : 100%;
+    height : auto;
+    display : flex;
+    flex-wrap: wrap;
+    margin-top : 2.688rem;
+
+}
+
+.idinu-content__insta-wrapper__content__img{
+    width : 16%;
+    height : auto;
+    margin : 0 0.25% 0.5rem
+}
+
+
+.idinu-footer__wrapper{
+    width : 100%;
+    height : auto;
+    min-height: 18.75rem;
+    display : flex;
+    padding : 0 5.1vw 4.5rem;
+    box-sizing: border-box;
+    align-items: stretch;
+}
+
+.idinu-footer__wrapper__section-1-wrapper{
+    width : 52%;
+    height : auto;
+    display : flex;
+    flex-direction: column;
+}
+
+.idinu-footer__wrapper__section-1-wrapper__copyright{
+    font-family: 'Poppins', sans-serif;
+    font-size : 1.063rem;
+    font-weight: bold;
+    color : #444444;
+}
+
+.idinu-footer__wrapper__section-1-wrapper__menu-wrapper{
+    margin-top : 2.688rem;
+    display : flex;
+}
+
+.idinu-footer__wrapper__section-1-wrapper__menu-wrapper__menu{
+    margin-right : 3.5rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 1rem;
+    font-weight: 500;
+    color : #444444;
+}
+
+.idinu-footer__wrapper__section-1-wrapper__info-wrapper{
+    display : flex;
+    flex-wrap : wrap;
+    width : 100%;
+    margin-top:1.688rem;
+}
+
+.idinu-footer__wrapper__section-1-wrapper__info-wrapper__info{
+    display : flex;
+    width : auto;
+    margin-right : 1rem;
+}
+
+.idinu-footer__wrapper__section-1-wrapper__info-wrapper__info--key{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 0.75rem;
+    font-weight: bold;
+}
+
+.idinu-footer__wrapper__section-1-wrapper__info-wrapper__info--value{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 0.75rem;
+    font-weight: 300;
+}
+
+.idinu-footer__wrapper__section-1-wrapper__service-title{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 0.75rem;
+    margin-top: 1rem;
+}
+
+.idinu-footer__wrapper__section-1-wrapper__service-content{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 0.75rem;
+    font-weight: 300;
+}
+
+.idinu-footer__wrapper__section-2-wrapper{
+    width : 35%;
+    height : auto;
+    display : flex;
+    flex-direction: column;
+}
+
+.idinu-footer__wrapper__section-2-wrapper__customer-center{
+    font-family: 'Poppins', sans-serif;
+    font-size : 1.063rem;
+    font-weight: bold;
+    color : #444444;
+}
+
+.idinu-footer__wrapper__section-2-wrapper__phone{
+    margin-top : 2.75rem;
+    margin-bottom : 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size : 2.5rem;
+    color : #444444;
+}
+
+.idinu-footer__wrapper__section-2-wrapper__time{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size : 1.063rem;
+    color : #444444;
+}
+
+
+.idinu-footer__wrapper__section-3-wrapper{
+    width : 13%;
+    height : auto;
+    display : flex;
+    flex-direction: column;
+}
+
+.idinu-footer__wrapper__section-3-wrapper__contact-title{
+    font-family: 'Poppins', sans-serif;
+    font-size : 1.063rem;
+    font-weight: bold;
+    color : #444444;
+    margin-bottom : 2.75rem;
+
+}
+
+.idinu-footer__wrapper__section-3-wrapper__contact{
+    font-family: 'Poppins', sans-serif;
+    font-size : 1rem;
+    color : #444444;
+}
+
+
+
+
+
+
+
+
