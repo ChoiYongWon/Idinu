@@ -627,6 +627,7 @@ html, body {
 
 .test{
     width : 16%;
+    height : auto;
     margin : 0.1rem
 
 }
