@@ -4,8 +4,10 @@
         padding: 2rem 5.2vw 2rem !important;
     }
 
-    .idinu-container{
-        padding-top : 8rem;
+
+    .empty{
+        width : 100%;
+        height : 8rem;
     }
 
     .idinu-header{
@@ -93,6 +95,8 @@
     .idinu-content__best-seller-wrapper__content-wrapper__content__img-wrapper:after{
         top : 0;
         left : 0;
+        width : 7rem;
+        height : 7rem;
     }
 
     /*.idinu-content__best-seller-wrapper__content-wrapper__content:nth-child(1) .idinu-content__best-seller-wrapper__content-wrapper__content__img-wrapper:before{*/

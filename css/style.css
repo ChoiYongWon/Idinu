@@ -28,11 +28,11 @@
 }
 
 
-html, body {
+body {
     margin : 0;
     padding : 0;
     font-size : 16px;
-    
+    display : none;
 }
 
 .idinu-container {
@@ -43,6 +43,11 @@ html, body {
     align-items: center;
     flex-direction: column;
     padding-top : 11.128rem;
+}
+
+.empty{
+    width : 100%;
+    height : 11.128rem;
 }
 
 
@@ -121,6 +126,11 @@ html, body {
     text-decoration: none;
     margin-top : 0.375rem;
     cursor : pointer;
+    color : #444444;
+}
+
+.idinu-header__nav__dropdown-wrapper__content__button:hover{
+    color : #000000;
 }
 
 .idinu-header__icon-wrapper{
@@ -572,6 +582,13 @@ html, body {
     align-items: center;
     margin-bottom: 0.5rem;
 }
+
+.idinu-content__review-wrapper__container__content-wrapper__card:hover{
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+    width : 25.5%;
+    transition : width 0.25s ease;
+}
+
 
 .idinu-content__review-wrapper__container__content-wrapper__card__img{
     width: 100%;

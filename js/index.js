@@ -31,7 +31,13 @@ const animateCheck = () => {
     }
 }
 
+const paint = () => {
+    console.log("paint")
+    document.body.style.display = "block"
+}
+
 window.onload = () => {
+    paint()
     headerFixed()
     animateCheck()
     document.addEventListener("scroll", (e)=>{
