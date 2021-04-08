@@ -159,6 +159,10 @@
         border : #ACACAC solid 1px;
     }
 
+    .idinu-content__review-wrapper__container__content-wrapper__card:hover{
+        width : 49.5%;
+    }
+
     .idinu-content__review-wrapper__container__content-wrapper__card__text-wrapper{
         border-top : #ACACAC solid 1px;
     }
