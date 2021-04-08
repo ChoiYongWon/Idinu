@@ -1,9 +1,15 @@
 @media screen and (max-width : 768px){
 
+    .header-fixed{
+        padding: 3rem 5.2vw 3rem !important;
+    }
 
+    .idinu-container{
+        padding-top : 12rem;
+    }
 
     .idinu-header{
-        padding: 70px 2.6vw 30px;
+        padding: 7rem 5.2vw 3rem;
     }
 
     .idinu-header__icon{

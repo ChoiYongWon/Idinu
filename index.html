@@ -14,36 +14,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+<header class="idinu-header">
+    <embed src="./img/bar.svg" type="image/svg+xml" class="idinu-header__icon">
+    <embed src="./img/logo.svg" type="image/svg+xml" class="idinu-header__logo">
+
+    <div class="idinu-header__nav">
+        <div class="idinu-header__nav__button">About</div>
+        <div class="idinu-header__nav__button">Brand</div>
+        <div class="idinu-header__nav__button">Shop</div>
+        <div class="idinu-header__nav__button">Review</div>
+
+    </div>
+
+    <div class="idinu-header__nav-2">
+        <div class="idinu-header__nav__button">Notice</div>
+        <div class="idinu-header__nav__button">Event</div>
+        <div class="idinu-header__nav__button">Q&A</div>
+
+    </div>
+    <div class="idinu-header__icon-wrapper">
+        <embed src="./img/user_icon.svg" type="image/svg+xml" class="idinu-header__icon-wrapper__icon">
+        <embed src="./img/shop_icon.svg" type="image/svg+xml" class="idinu-header__icon-wrapper__icon">
+        <embed src="./img/search_icon.svg" type="image/svg+xml" class="idinu-header__icon-wrapper__icon">
+    </div>
+</header>
 <div class="idinu-container">
-    <header class="idinu-header">
-        <embed src="./img/bar.svg" type="image/svg+xml" class="idinu-header__icon">
-        <embed src="./img/logo.svg" type="image/svg+xml" class="idinu-header__logo">
-
-        <div class="idinu-header__nav">
-            <div class="idinu-header__nav__button">About</div>
-            <div class="idinu-header__nav__button">Brand</div>
-            <div class="idinu-header__nav__button">Shop</div>
-            <div class="idinu-header__nav__button">Review</div>
-
-        </div>
-
-        <div class="idinu-header__nav-2">
-            <div class="idinu-header__nav__button">Notice</div>
-            <div class="idinu-header__nav__button">Event</div>
-            <div class="idinu-header__nav__button">Q&A</div>
-
-        </div>
-        <div class="idinu-header__icon-wrapper">
-            <embed src="./img/user_icon.svg" type="image/svg+xml" class="idinu-header__icon-wrapper__icon">
-            <embed src="./img/shop_icon.svg" type="image/svg+xml" class="idinu-header__icon-wrapper__icon">
-            <embed src="./img/search_icon.svg" type="image/svg+xml" class="idinu-header__icon-wrapper__icon">
-        </div>
-    </header>
     <div class="idinu-content">
         <div class="idinu-content__main-img-wrapper">
             <embed src="./img/main.svg" type="image/svg+xml" class="idinu-content__main-img">
         </div>
-        <div class="idinu-content__introduction-wrapper">
+        <div class="idinu-content__introduction-wrapper animation">
         <span class="idinu-content__introduction-wrapper__subtitle">
             ‘나다움’을 추구하는 건강한 공간
         </span>
@@ -56,7 +56,7 @@
             <button class="idinu-content__introduction-wrapper__button">View More</button>
         </div>
 
-        <div class="idinu-content__feature-wrapper">
+        <div class="idinu-content__feature-wrapper animation">
             <div class="idinu-content__feature-wrapper__card">
                 <img src="./img/feature_1.png" alt="" class="idinu-content__feature-wrapper__card__img">
                 <div class="idinu-content__feature-wrapper__card__text-wrapper">
@@ -85,7 +85,7 @@
                 </div>
             </div>
         </div>
-        <div class="idinu-content__best-seller-wrapper">
+        <div class="idinu-content__best-seller-wrapper animation">
             <span class="idinu-content__best-seller-wrapper__subtitle">아이디인유 베스트</span>
             <span class="idinu-content__best-seller-wrapper__title">Best Seller</span>
             <div class="idinu-content__best-seller-wrapper__tag-wrapper">
@@ -125,7 +125,7 @@
             </div>
         </div>
 
-        <div class="idinu-content__new-wrapper">
+        <div class="idinu-content__new-wrapper animation">
             <span class="idinu-content__new-wrapper__subtitle">아이디인유 신제품</span>
             <span class="idinu-content__new-wrapper__title">New in Shop</span>
             <div class="idinu-content__new-wrapper__content-wrapper">
@@ -156,7 +156,7 @@
             </div>
         </div>
 
-        <div class="idinu-content__brand-wrapper">
+        <div class="idinu-content__brand-wrapper animation">
             <span class="idinu-content__brand-wrapper__subtitle">아이디인유 브랜드관</span>
             <span class="idinu-content__brand-wrapper__title">Brand Archive</span>
             <div class="idinu-content__brand-wrapper__content-wrapper">
@@ -191,7 +191,7 @@
             </div>
         </div>
 
-        <div class="idinu-content__review-wrapper">
+        <div class="idinu-content__review-wrapper animation">
             <span class="idinu-content__review-wrapper__subtitle">아이디인유와 함꼐한 분들의 소중한 후기입니다.</span>
             <span class="idinu-content__review-wrapper__title">Real Review</span>
             <div class="idinu-content__review-wrapper__container">
@@ -260,7 +260,7 @@
             </div>
         </div>
 
-        <div class="idinu-content__event-wrapper">
+        <div class="idinu-content__event-wrapper animation">
             <span class="idinu-content__event-wrapper__subtitle">브랜드 이벤트</span>
             <span class="idinu-content__event-wrapper__title">Event</span>
             <div class="idinu-content__event-wrapper__content-wrapper">
@@ -268,7 +268,7 @@
             </div>
         </div>
 
-        <div class="idinu-content__insta-wrapper">
+        <div class="idinu-content__insta-wrapper animation">
             <span class="idinu-content__insta-wrapper__title">@idinu_official</span>
             <div class="idinu-content__insta-wrapper__content">
                 <div class="idinu-content__insta-wrapper__content__img-wrapper">
@@ -375,6 +375,6 @@
     </footer>
 </div>
 
-
+<script src="./js/index.js"></script>
 </body>
 </html>

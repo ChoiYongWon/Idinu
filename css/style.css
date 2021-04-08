@@ -9,6 +9,23 @@
     }
 }
 
+.animation {
+    opacity : 0;
+    transform: translateY(100px);
+    transition: all 2s ease;
+}
+
+.show{
+    opacity : 1;
+    transform : none;
+}
+
+.header-fixed {
+    padding: 3.125rem 5.2vw 3.125rem !important;
+    background-color : #ffffff;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+
+}
 
 
 html, body {
@@ -25,18 +42,21 @@ html, body {
     justify-items: center;
     align-items: center;
     flex-direction: column;
+    padding-top : 11.128rem;
 }
 
 
 
 .idinu-header{
+    position : fixed;
     width : 100%;
-    padding: 100px 5.2vw 50px;
+    padding: 6.25rem 5.2vw 3.125rem;
     box-sizing : border-box;
     display : grid;
     grid-template-columns: repeat(12, 1fr);
     gap: calc((100% - 200px)/12/11);
-
+    transition : all 0.75s ease;
+    z-index: 1;
 }
 
 .idinu-header__icon{
@@ -46,7 +66,7 @@ html, body {
 }
 
 .idinu-header__logo {
-    width : calc(((100vw - 200px)/12 * 2) - 30px);
+    width : calc(((100vw - 200px)/12 * 1.5) - 30px);
     min-width: 180px;
     height : auto;
     grid-column : 1/3;
