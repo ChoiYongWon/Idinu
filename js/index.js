@@ -11,9 +11,9 @@ const headerFixed = () => {
 
     let y = document.documentElement.scrollTop
     let header = document.querySelector(".idinu-header")
-    if(y >= 30 && !header.classList.contains("header-fixed")){
+    if(y >= 20 && !header.classList.contains("header-fixed")){
         header.classList.add("header-fixed")
-    }else if(y < 30 && header.classList.contains("header-fixed")){
+    }else if(y < 20 && header.classList.contains("header-fixed")){
         header.classList.remove("header-fixed")
     }
 }
