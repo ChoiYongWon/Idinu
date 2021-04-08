@@ -22,7 +22,7 @@ const animateCheck = () => {
     let y = window.innerHeight;
     let animation_component = document.querySelectorAll(".animation")
     for(let element of animation_component){
-        if(element.getBoundingClientRect().top + 200 < y){
+        if(element.getBoundingClientRect().top + 300 < y){
             if(!element.classList.contains("show")){
                 element.classList.add("show")
             }
