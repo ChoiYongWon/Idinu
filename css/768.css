@@ -77,6 +77,7 @@
 
     .idinu-content__best-seller-wrapper__content-wrapper__content{
         width : 100%;
+        padding : 0 0.5rem 3rem 0.5rem;
         margin : 3rem 0 0 0;
     }
     .idinu-content__best-seller-wrapper__content-wrapper__content:nth-child(1){
@@ -92,22 +93,15 @@
         width : 50%;
     }
 
-    .idinu-content__best-seller-wrapper__content-wrapper__content__img-wrapper:after{
+    .idinu-content__best-seller-wrapper__content-wrapper__content__img-wrapper:before{
         top : 0;
         left : 0;
+    }
+
+    .idinu-content__best-seller-wrapper__content-wrapper__content:nth-child(1) .idinu-content__best-seller-wrapper__content-wrapper__content__img-wrapper:before{
         width : 7rem;
         height : 7rem;
     }
-
-    /*.idinu-content__best-seller-wrapper__content-wrapper__content:nth-child(1) .idinu-content__best-seller-wrapper__content-wrapper__content__img-wrapper:before{*/
-    /*    content: 'Best 1';*/
-    /*}*/
-    /*.idinu-content__best-seller-wrapper__content-wrapper__content:nth-child(2) .idinu-content__best-seller-wrapper__content-wrapper__content__img-wrapper:before{*/
-    /*    content: 'Best 2';*/
-    /*}*/
-    /*.idinu-content__best-seller-wrapper__content-wrapper__content:nth-child(3) .idinu-content__best-seller-wrapper__content-wrapper__content__img-wrapper:before{*/
-    /*    content: 'Best 3';*/
-    /*}*/
 
     .idinu-content__best-seller-wrapper__content-wrapper__content__img-wrapper{
         width: 73%;
