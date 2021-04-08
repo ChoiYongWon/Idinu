@@ -18,20 +18,25 @@ const headerFixed = () => {
     }
 }
 
+const animateCheck = () => {
+    let y = window.innerHeight;
+    let animation_component = document.querySelectorAll(".animation")
+    for(let element of animation_component){
+        if(element.getBoundingClientRect().top + 100 < y){
+            if(!element.classList.contains("show")){
+                element.classList.add("show")
+            }
+        }
+
+    }
+}
+
 window.onload = () => {
     headerFixed()
+    animateCheck()
     document.addEventListener("scroll", (e)=>{
         headerFixed()
-        let y = window.innerHeight;
-        let animation_component = document.querySelectorAll(".animation")
-        for(let element of animation_component){
-            if(element.getBoundingClientRect().top + 100 < y){
-                if(!element.classList.contains("show")){
-                    element.classList.add("show")
-                }
-            }
-
-        }
+        animateCheck()
         
     })
 }

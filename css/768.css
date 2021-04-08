@@ -90,6 +90,32 @@
         width : 50%;
     }
 
+    /*.idinu-content__best-seller-wrapper__content-wrapper__content__img-wrapper:after{*/
+    /*    position : absolute;*/
+    /*    content: '';*/
+    /*    width : 2.125rem;*/
+    /*    height : auto;*/
+    /*    background: url("./img/heart.png");*/
+    /*    display : flex;*/
+    /*    justify-content: center;*/
+    /*    align-items: center;*/
+    /*    font-family: 'Poppins', sans-serif;*/
+    /*    font-size : 1.125rem;*/
+    /*    font-weight : bold;*/
+    /*    top : 3%;*/
+    /*    left : 3%;*/
+    /*}*/
+
+    /*.idinu-content__best-seller-wrapper__content-wrapper__content:nth-child(1) .idinu-content__best-seller-wrapper__content-wrapper__content__img-wrapper:before{*/
+    /*    content: 'Best 1';*/
+    /*}*/
+    /*.idinu-content__best-seller-wrapper__content-wrapper__content:nth-child(2) .idinu-content__best-seller-wrapper__content-wrapper__content__img-wrapper:before{*/
+    /*    content: 'Best 2';*/
+    /*}*/
+    /*.idinu-content__best-seller-wrapper__content-wrapper__content:nth-child(3) .idinu-content__best-seller-wrapper__content-wrapper__content__img-wrapper:before{*/
+    /*    content: 'Best 3';*/
+    /*}*/
+
     .idinu-content__best-seller-wrapper__content-wrapper__content__img-wrapper{
         width: 73%;
         height: auto;
@@ -142,7 +168,7 @@
 
     .idinu-content__review-wrapper__container__content-wrapper__card{
         width: 49%;
-        border-radius: 0.5rem;
+        border-radius: 5px;
         border : #ACACAC solid 1px;
     }
 
